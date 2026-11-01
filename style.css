@@ -50,3 +50,14 @@ button:focus-visible,.cat:focus-visible{outline:3px solid rgba(43,108,255,.6);ou
 @supports not ((backdrop-filter:blur(1px)) or (-webkit-backdrop-filter:blur(1px))){.glass,.top,.card,#toast{background:rgba(255,255,255,.8)}}
 
 #bg3d{position:fixed;inset:0;width:100%;height:100%;z-index:-1;pointer-events:none}
+
+/* friendlier layout: centered headings/actions, hero */
+h2{text-align:center}
+.row{justify-content:center}
+.top{justify-content:center}
+.top h1{width:100%;text-align:center;font-size:24px}
+nav{justify-content:center;width:100%}
+.hero{text-align:center;margin:8px 0 18px}
+.hero .big{font-size:26px;font-weight:800;line-height:1.5}
+.hero p{color:var(--mut);margin:6px 8px 0;line-height:1.9}
+.card.cat{display:flex;flex-direction:column;align-items:center;gap:4px}
